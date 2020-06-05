@@ -1,0 +1,15 @@
+{
+  "timeZone": "Pacific/Auckland",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "SheetConverter",
+      "libraryId": "1kL7pHe3Ru9hCcc1YXJTdPCuPRo-rDzH9fi3--QF8TE7AxIrQoJXZht8A",
+      "version": "6"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER"
+}

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ModbusRTUFeather-rescue)(type Legacy)(uri ${KIPRJMOD}/ModbusRTUFeather-rescue.lib)(options "")(descr ""))
+)
