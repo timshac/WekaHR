@@ -13,9 +13,9 @@ The WekaHR is a modbus slave (RS-485) with read/write registers that are synced 
 
 ## Connect hardware
 
-# Wire the WekaHR to your PLC.  The WekaHR is powered by 5v DC. Schnieder PLCs provide 5v via the modbus port
-# Insert the Boron or Argon into the WekaHR
-# Connnect particle Boron or Argon to the particle cloud, and give the device a name (deviceName)
+1. Wire the WekaHR to your PLC.  The WekaHR is powered by 5v DC. Schnieder PLCs provide 5v via the modbus port
+2. Insert the Boron or Argon into the WekaHR
+3. Connnect particle Boron or Argon to the particle cloud, and give the device a name (deviceName)
 
 Then you are ready to flash the firmware
 
