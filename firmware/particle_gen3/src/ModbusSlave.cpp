@@ -432,6 +432,19 @@ int Modbus::poll() {
         // [ on SoftwareSerial use delay ? ]
         serial.flush();
         digitalWrite(ctrlPin, LOW);
+
+
+        String data;
+        for(int i=0;i<lengthOut;i++) {
+            data += String(bufOut[i], HEX) + " ";
+        }
+        //Log.info("%s\n",data.c_str());
+
+        //Particle.publish("serial", data.c_str(), PRIVATE);
+        Log.info("Serial out: %s", data.c_str());
+        
+
+
     } else {
         // just send the buffer.
         serial.write(bufOut, lengthOut);

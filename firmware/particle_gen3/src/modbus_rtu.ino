@@ -19,7 +19,7 @@ SerialLogHandler logHandler;
  */
 #define SLAVE_ID 10
 #define CTRL_PIN D6
-#define BAUDRATE 19200
+#define BAUDRATE 9600 // James: 19200
 
 #define PIN_MODE_INPUT 0
 #define PIN_MODE_OUTPUT 1
@@ -129,7 +129,7 @@ void setup() {
     Particle.function("SetSettingsJSON",WriteEEPROM_JSON);
 
     // set Serial and slave at baud 9600. / 19200
-    Serial1.begin(19200,SERIAL_8N1);   //SERIAL_8N1
+    Serial1.begin(BAUDRATE,SERIAL_8N1);   //SERIAL_8N1
     //Serial.begin( BAUDRATE );
     slave.begin( BAUDRATE );
     slave.unitID = wekaConfig._unitID;
@@ -200,13 +200,13 @@ void loop() {
      */ 
     slave.poll();
     
-    delay(1);   // a 10 0 0 0 1 2 0 65 15 4b a 10
+    delay(100);   // a 10 0 0 0 1 2 0 65 15 4b a 10
 
     unsigned long currentMillis = millis();
     if(currentMillis - previousMillis > TIMER) {
         previousMillis = currentMillis;
 
-        Log.info("%s", "looped");
+        //Log.info("%s", "looped");
     }
 
 }
