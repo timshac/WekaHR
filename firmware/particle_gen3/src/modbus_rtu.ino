@@ -19,7 +19,7 @@ SerialLogHandler logHandler;
  */
 #define SLAVE_ID 10
 #define CTRL_PIN D6
-#define BAUDRATE 9600 // James: 19200
+#define BAUDRATE 19200
 
 #define PIN_MODE_INPUT 0
 #define PIN_MODE_OUTPUT 1
