@@ -36,7 +36,7 @@ particle serial flash bin
 
 ## Initial WekaHR module setup, for a fresh new module
 
-Issue these commands to in the particle console (console.particle.io)
+Issue these commands to in the particle console (console.particle.io). The modbus baud is set in the code, currently to 19200 8N1
 ```
 SetUnitID 10   # to set modbus slave ID (defaults to 10)
 SetEventName "companyname/projectname"   # set the particle webhook event name
