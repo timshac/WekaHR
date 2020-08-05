@@ -45,7 +45,7 @@ SetEventName "companyname/projectname"   # set the particle webhook event name
 
 ## Save a copy of the linked google sheet
 
-Save a copy of this [WekaHR Template](https://docs.google.com/spreadsheets/d/1dsoAosavrSCt88q0tjWTA6WfT7lwxBgexuUGqGGjWAQ/copy?usp=sharing) and follow the instructions in the worksheet to connect your particle to the google sheet using a webhook.
+Save a copy of this [WekaHR Google Sheets Template](https://docs.google.com/spreadsheets/d/1dsoAosavrSCt88q0tjWTA6WfT7lwxBgexuUGqGGjWAQ/copy?usp=sharing) and follow the instructions in the worksheet to connect your particle to the google sheet using a webhook.
 
 ## Connect particle cloud to google sheet
 
