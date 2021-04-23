@@ -144,6 +144,14 @@ int Modbus::poll() {
         delay(10);
 
         Log.info("MODBUS read bytes: %d", lengthIn);
+
+
+       String data;
+        for(int i=0;i<lengthIn;i++) {
+            data += String(bufIn[i], HEX) + " ";
+        }
+        Log.info("%s\n",data.c_str());
+
     }
     else {
         return 0;

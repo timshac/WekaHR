@@ -114,4 +114,8 @@ The WekaHR accepts a JSON response that sets HR values.  The response looks like
 
 This includes registers set and their numeric value to be set, as well as the source google sheet or application url.
 
+## Licenses
 
+* Hardware: CERN-OHL-P
+* Firmware: MIT
+* Documentation: MIT

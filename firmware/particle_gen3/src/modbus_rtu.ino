@@ -1,8 +1,8 @@
 /*
- * Project modbus_rtu
- * Description:
- * Author:
- * Date:
+ * Project WekaHR
+ * Description:  Sync modbus device registers with Google Sheets
+ * Copyright (c) Hudson Sonoma LLC
+ * License : MIT
  */
 
 // This #include statement was automatically added by the Particle IDE.
